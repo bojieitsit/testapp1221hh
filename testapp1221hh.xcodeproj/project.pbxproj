@@ -7,16 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58AEF2202A865AC7001E14D9 /* StoriesInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AEF21F2A865AC7001E14D9 /* StoriesInfo.swift */; };
+		58AEF2222A86612E001E14D9 /* LocationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AEF2212A86612E001E14D9 /* LocationInfo.swift */; };
+		58AEF2242A8662F7001E14D9 /* SaleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AEF2232A8662F7001E14D9 /* SaleInfo.swift */; };
+		58AEF2262A86635E001E14D9 /* BonusInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AEF2252A86635E001E14D9 /* BonusInfo.swift */; };
+		58AEF2282A8663BB001E14D9 /* SubscriptionInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AEF2272A8663BB001E14D9 /* SubscriptionInfo.swift */; };
+		58AEF22A2A86640F001E14D9 /* RecomendedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AEF2292A86640F001E14D9 /* RecomendedInfo.swift */; };
+		58AEF22C2A8664A9001E14D9 /* SugarInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AEF22B2A8664A9001E14D9 /* SugarInfo.swift */; };
+		58AEF22E2A866640001E14D9 /* BottomTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AEF22D2A866640001E14D9 /* BottomTabs.swift */; };
 		58E18C5C2A84E78000EB31C8 /* testapp1221hhApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E18C5B2A84E78000EB31C8 /* testapp1221hhApp.swift */; };
-		58E18C5E2A84E78000EB31C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E18C5D2A84E78000EB31C8 /* ContentView.swift */; };
+		58E18C5E2A84E78000EB31C8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E18C5D2A84E78000EB31C8 /* MainView.swift */; };
 		58E18C602A84E78100EB31C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E18C5F2A84E78100EB31C8 /* Assets.xcassets */; };
 		58E18C632A84E78100EB31C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E18C622A84E78100EB31C8 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		58AEF21F2A865AC7001E14D9 /* StoriesInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesInfo.swift; sourceTree = "<group>"; };
+		58AEF2212A86612E001E14D9 /* LocationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfo.swift; sourceTree = "<group>"; };
+		58AEF2232A8662F7001E14D9 /* SaleInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaleInfo.swift; sourceTree = "<group>"; };
+		58AEF2252A86635E001E14D9 /* BonusInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BonusInfo.swift; sourceTree = "<group>"; };
+		58AEF2272A8663BB001E14D9 /* SubscriptionInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionInfo.swift; sourceTree = "<group>"; };
+		58AEF2292A86640F001E14D9 /* RecomendedInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendedInfo.swift; sourceTree = "<group>"; };
+		58AEF22B2A8664A9001E14D9 /* SugarInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugarInfo.swift; sourceTree = "<group>"; };
+		58AEF22D2A866640001E14D9 /* BottomTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTabs.swift; sourceTree = "<group>"; };
 		58E18C582A84E78000EB31C8 /* testapp1221hh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testapp1221hh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58E18C5B2A84E78000EB31C8 /* testapp1221hhApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testapp1221hhApp.swift; sourceTree = "<group>"; };
-		58E18C5D2A84E78000EB31C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		58E18C5D2A84E78000EB31C8 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		58E18C5F2A84E78100EB31C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58E18C622A84E78100EB31C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +48,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58AEF22F2A866B66001E14D9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				58AEF2212A86612E001E14D9 /* LocationInfo.swift */,
+				58AEF21F2A865AC7001E14D9 /* StoriesInfo.swift */,
+				58AEF2232A8662F7001E14D9 /* SaleInfo.swift */,
+				58AEF2252A86635E001E14D9 /* BonusInfo.swift */,
+				58AEF2272A8663BB001E14D9 /* SubscriptionInfo.swift */,
+				58AEF2292A86640F001E14D9 /* RecomendedInfo.swift */,
+				58AEF22B2A8664A9001E14D9 /* SugarInfo.swift */,
+				58AEF22D2A866640001E14D9 /* BottomTabs.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		58E18C4F2A84E78000EB31C8 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				58E18C5B2A84E78000EB31C8 /* testapp1221hhApp.swift */,
-				58E18C5D2A84E78000EB31C8 /* ContentView.swift */,
+				58E18C5D2A84E78000EB31C8 /* MainView.swift */,
+				58AEF22F2A866B66001E14D9 /* Views */,
 				58E18C5F2A84E78100EB31C8 /* Assets.xcassets */,
 				58E18C612A84E78100EB31C8 /* Preview Content */,
 			);
@@ -137,7 +169,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58E18C5E2A84E78000EB31C8 /* ContentView.swift in Sources */,
+				58AEF2202A865AC7001E14D9 /* StoriesInfo.swift in Sources */,
+				58AEF22A2A86640F001E14D9 /* RecomendedInfo.swift in Sources */,
+				58AEF22E2A866640001E14D9 /* BottomTabs.swift in Sources */,
+				58E18C5E2A84E78000EB31C8 /* MainView.swift in Sources */,
+				58AEF22C2A8664A9001E14D9 /* SugarInfo.swift in Sources */,
+				58AEF2222A86612E001E14D9 /* LocationInfo.swift in Sources */,
+				58AEF2262A86635E001E14D9 /* BonusInfo.swift in Sources */,
+				58AEF2282A8663BB001E14D9 /* SubscriptionInfo.swift in Sources */,
+				58AEF2242A8662F7001E14D9 /* SaleInfo.swift in Sources */,
 				58E18C5C2A84E78000EB31C8 /* testapp1221hhApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
